@@ -15,9 +15,9 @@ public class ReverseNumberusingwhile {
 		    
 		      num = in.nextInt();
 		   
-		      while( num != 0 )
+		      while( num >0 )
 		      {
-		          reversenum = reversenum * 10;
+		         reversenum = reversenum * 10;
 		          reversenum = reversenum + num%10;
 		          num = num/10;
 		      }
