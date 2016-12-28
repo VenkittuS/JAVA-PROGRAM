@@ -4,7 +4,7 @@ public class Game implements inter {
 	
 	String name = null;
 	
-		public String getName() {
+	public String getName() {
 		return name;
 	}
 
