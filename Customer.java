@@ -1,29 +1,53 @@
-package pAYILAGAM;
+package CONSTRUCTOR;
 
 public class Customer {
 
+	String name[]={"venkittu","venkat","naren"};
+	int roll[]={2,4,5};
+	
+	
+	
+	
+	
+	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Customer in =new Customer();
-		in.deposit();
-		in.withdrawal();
-		Bank axis = new Bank();
-		axis.getcustomerdetails();
-		
+ Customer customer=new Customer();
+ bank sb=new bank(customer);
+ bank sb1 =new bank(11,33);
+ customer.withraw();
+ deposit();
 
 	}
 
-	private void withdrawal() {
+
+
+
+
+
+
+	private static void deposit() {
 		// TODO Auto-generated method stub
 		
-		System.out.println("withdrawal amount limit 2000 because  PM narendra modi fetching rules for blackmoney ");
-		
 	}
 
-	private void deposit() {
+
+
+
+
+
+
+	private void withraw() {
 		// TODO Auto-generated method stub
-		System.out.println("deposit limit as per gov order 24000 per week");
 		
 	}
 
+
+
+
+
+
+
+	
 }
