@@ -3,9 +3,9 @@ package INTERFACE;
 public interface Interface {
 
 	void m();
-	void n();
+	 void n();
 	
-	class inter implements Interface{
+	class Inter implements Interface{
 
 		
 		public void m() {
@@ -22,9 +22,21 @@ public interface Interface {
 	}
 	
 		public static void main(String[] args){
-			inter in=new inter();
-			in.m();
-			in.n();
+			//inter in=new inter();
+			Interface h=new Inter();
+			h.m();
+			h.n();
+			String name = null;
+			Integer integer = null;
+
+			name = name != null ? "Ramki" : "";
+			
+			
+			if (name != null) {
+				name = "Ramki";
+			}else {
+				name = "";
+			}
 		}
 	}
 	
